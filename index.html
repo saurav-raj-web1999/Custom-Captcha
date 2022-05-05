@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Captcha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc61ef98f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Custom Captcha</h2>
+            <div class="captch">
+                <div class="image">
+                    <img src="captcha-bg.jpg" alt="">
+                    <span class="captcha-text">K 7 i 0 G q</span>
+                </div>
+                <button class="reload"><i class="fas fa-redo-alt"></i></button>
+            </div>
+            <div class="user-text">
+                <form action="#">
+                    <input type="text" placeholder="Enter captcha" required>
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="text-area">You entered wrong captcha!</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
